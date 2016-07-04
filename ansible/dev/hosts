@@ -1,0 +1,19 @@
+[control]
+control ansible_ssh_host=54.234.238.70 #ansible_ssh_user=ubuntu
+
+[loadbalancer]
+lb01 ansible_ssh_host=52.90.186.230 #ansible_ssh_user=ubuntu
+
+[webservers]
+app01 ansible_ssh_host=52.91.35.88 #ansible_ssh_user=ubuntu
+app02 ansible_ssh_host=54.173.67.121 #ansible_ssh_user=ubuntu
+
+[database]
+db01 ansible_ssh_host=54.226.178.114 #ansible_ssh_user=ubuntu
+
+[aws]
+control
+lb01
+app01
+app02
+db01
